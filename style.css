@@ -30,6 +30,7 @@ p {
     position: absolute;
     top: -600px;
     left: 0px;
+    opacity: 0;
 }
 
 .h1-yellow {
@@ -39,6 +40,7 @@ p {
 .p-blueviolet {
     color: blueviolet;
     top: 60px;
+    opacity: 1;
 }
 
 .bg-black {
