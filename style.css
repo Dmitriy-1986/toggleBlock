@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    transition: all 1000ms;
+    font-family: sans-serif;
+}
+
+main {
+    position: relative;
+    max-width: 1000px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+h1 {
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
+
+.h1::after {
+    content: 'Открыть полное описание';
+}
+
+.h1.active::after {
+    content: 'Закрыть полное описание';
+}
+
+p {
+   padding: 10px;
+    position: absolute;
+    top: -300px;
+    left: 0px;
+}
+
+.h1-yellow {
+    color: yellow;
+}
+
+.p-blueviolet {
+    color: blueviolet;
+    top: 60px;
+}
+
+.bg-black {
+    background-color: rgb(29,29,29);
+}
+
+.none {
+   display: none; 
+}
+
+.strong {
+    color: brown;
+}
+
+.dots {
+    font-weight: bold;
+    color: blue;
+}
